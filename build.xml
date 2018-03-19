@@ -114,7 +114,7 @@
             <classpath refid="kalay_vsaas_3.0.classpath"/>
         </junit>
     </target>
-    <target name="testtimes (1)">
+    <target name="testtimes">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
