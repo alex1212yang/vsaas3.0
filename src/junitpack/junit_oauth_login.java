@@ -144,7 +144,7 @@ public class junit_oauth_login{
 		}
 		//ALLarraylist
 		ALLResultlist.add(Resultlist);
-	/*
+	
 		// keyin Password: Null
 		driverChrome.findElement(By.id("id_email")).clear();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -387,7 +387,7 @@ public class junit_oauth_login{
 				}
 				//ALLarraylist
 				ALLResultlist.add(Resultlist);
-/*
+
 		// keyin error password
 		driverChrome.findElement(By.id("id_email")).clear();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -830,7 +830,7 @@ public class junit_oauth_login{
 		
 		
 		// °j°é }
-	}*/
+	}
 		driverChrome.close();  
 	    driverChrome.quit();
 	    return ALLResultlist;
