@@ -98,27 +98,83 @@
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="junitpack.AllTests" todir="${junit.output.dir}"/>
+            <test name="junitpack.Repeat_add_plan" todir="${junit.output.dir}"/>
             <test name="junitpack.ScreenshotTests" todir="${junit.output.dir}"/>
             <test name="junitpack.WEB_Mutidevice" todir="${junit.output.dir}"/>
-            <test name="junitpack.junit_add_camera" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_add_camera_run" todir="${junit.output.dir}"/>
             <test name="junitpack.junit_camera_setting" todir="${junit.output.dir}"/>
             <test name="junitpack.junit_oauth_account_setting" todir="${junit.output.dir}"/>
-            <test name="junitpack.junit_oauth_create_account" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_oauth_create_account_run" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_oauth_login_run" todir="${junit.output.dir}"/>
             <test name="junitpack.junit_purchase_plan" todir="${junit.output.dir}"/>
             <test name="junitpack.junit_webpage_response_time" todir="${junit.output.dir}"/>
             <test name="junitpack.junit_webpage_response_time_vtech" todir="${junit.output.dir}"/>
             <test name="junitpack.junit_webpage_response_time_vtech2" todir="${junit.output.dir}"/>
             <test name="junitpack.test" todir="${junit.output.dir}"/>
-            <test name="junitpack.testrepeat" todir="${junit.output.dir}"/>
-            <test name="junitpack.testtimes" todir="${junit.output.dir}"/>
             <classpath refid="kalay_vsaas_3.0.classpath"/>
         </junit>
     </target>
-    <target name="testtimes">
+    <target name="junit_oauth_create_account">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="junitpack.testtimes" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_oauth_create_account" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_create_account_run">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_create_account_run" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+            </target>
+    <target name="junit_oauth_login">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_login" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_login_run">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_login_run" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_create_account">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_create_account" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_create_account_run">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_create_account_run" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_add_camera">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_add_camera" todir="${junit.output.dir}"/>
+            <classpath refid="kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_add_camera_run">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_add_camera_run" todir="${junit.output.dir}"/>
             <classpath refid="kalay_vsaas_3.0.classpath"/>
         </junit>
     </target>

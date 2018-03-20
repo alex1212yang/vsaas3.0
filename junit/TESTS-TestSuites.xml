@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="TPE-Alex-Yang" id="0" name="testtimes" package="junitpack" skipped="0" tests="1" time="0.128" timestamp="2018-03-19T05:25:14">
+  <testsuite errors="0" failures="0" hostname="TPE-Alex-Yang" id="0" name="testtimes" package="junitpack" skipped="0" tests="22" time="0.169" timestamp="2018-03-19T08:33:28">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -154,9 +154,9 @@
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junitpack.testtimes skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alexyang\workspace\kalay_vsaas_3.0\junit\TEST-junitpack.testtimes.xml crashfile=C:\Users\alexyang\workspace\kalay_vsaas_3.0\junitvmwatcher368085058143069670.properties propsfile=C:\Users\alexyang\workspace\kalay_vsaas_3.0\junit313484586596152336.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junitpack.testtimes skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alexyang\workspace\kalay_vsaas_3.0\junit\TEST-junitpack.testtimes.xml crashfile=C:\Users\alexyang\workspace\kalay_vsaas_3.0\junitvmwatcher8801310092651536715.properties propsfile=C:\Users\alexyang\workspace\kalay_vsaas_3.0\junit2376261167648147824.properties" />
 
-          <property name="java.class.path" value="C:\Users\alexyang\workspace\kalay_vsaas_3.0\bin;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cglib-nodep-3.2.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\client-combined-3.0.1-nodeps.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-codec-1.10.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-exec-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-io-2.5.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-lang3-3.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-logging-1.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cssparser-0.9.20.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\gson-2.3.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\guava-19.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-core-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-library-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-core-js-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpclient-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpcore-4.4.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpmime-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\javax.servlet-api-3.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-io-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-util-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-platform-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\junit-4.12.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\neko-htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\netty-3.5.7.Final.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\phantomjsdriver-1.3.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\sac-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0-srcs.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\serializer-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-api-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-client-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-common-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xalan-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xercesImpl-2.11.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xml-apis-1.4.01.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-html-runner-3.0.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-server-standalone-3.3.1.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Users\alexyang\workspace\kalay_vsaas_3.0\bin;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\cglib-nodep-3.2.4.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\client-combined-3.0.1-nodeps.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\commons-codec-1.10.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\commons-exec-1.3.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\commons-io-2.5.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\commons-lang3-3.4.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\commons-logging-1.2.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\cssparser-0.9.20.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\gson-2.3.1.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\guava-19.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\hamcrest-core-1.3.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\hamcrest-library-1.3.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\htmlunit-2.23.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\htmlunit-core-js-2.23.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\httpclient-4.5.2.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\httpcore-4.4.4.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\httpmime-4.5.2.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\javax.servlet-api-3.1.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\jetty-io-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\jetty-util-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\jna-4.1.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\jna-platform-4.1.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\junit-4.12.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\neko-htmlunit-2.23.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\netty-3.5.7.Final.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\phantomjsdriver-1.3.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\sac-1.3.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\selenium-html-runner-3.0.1.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\selenium-java-2.53.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\selenium-java-2.53.0-srcs.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\selenium-server-standalone-3.0.1.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\selenium-server-standalone-3.3.1.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\serializer-2.7.2.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\websocket-api-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\websocket-client-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\websocket-common-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\xalan-2.7.2.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\xercesImpl-2.11.0.jar;C:\Users\alexyang\workspace\kalay_vsaas_3.0\lib\xml-apis-1.4.01.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
           <property name="ant.file.kalay_vsaas_3.0" value="C:\Users\alexyang\workspace\kalay_vsaas_3.0\build.xml" />
 
@@ -238,14 +238,78 @@
 
       <testcase classname="junitpack.testtimes" name="Case[0.keyin Email address: Null]" time="0.0" />
 
+      <testcase classname="junitpack.testtimes" name="Case[0_1.keyin Password: Null]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[1.keyin Email address: Abnormal a@a]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[1_1.keyin Email address: Abnormal a@a.c]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[1_2.keyin Email address: Abnormal a@@a.c2c]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[1_3.keyin Email address: Abnormal a@a@a.cc]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[1_4.keyin Email address: Abnormal aa.cc]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[1_5.keyin Email address: Abnormal abcd]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[2.keyin error password]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[3.keyin less than 8 characters password]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[4.keyin 1~8 password]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[5.keyin over 20 characters]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[6.The e-mail format incorrect]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[7.Enter resend email page]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[8.Enter resend email page - Null]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[9.Enter resend email page - a@a]" time="0.001" />
+
+      <testcase classname="junitpack.testtimes" name="Case[9_1.Enter resend email page - a@a.c]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[9_2.Enter resend email page - a@@a.c2c]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[9_3.Enter resend email page - a@a@a.cc]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[9_4.Enter resend email page - aa.cc]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[9_5.Enter resend email page - abcd]" time="0.0" />
+
+      <testcase classname="junitpack.testtimes" name="Case[10.Enter resend email page - right account]" time="0.0" />
+
       <system-out><![CDATA[0.keyin Email address: Null = pass
+0_1.keyin Password: Null = pass
+1.keyin Email address: Abnormal a@a = pass
+1_1.keyin Email address: Abnormal a@a.c = pass
+1_2.keyin Email address: Abnormal a@@a.c2c = pass
+1_3.keyin Email address: Abnormal a@a@a.cc = pass
+1_4.keyin Email address: Abnormal aa.cc = pass
+1_5.keyin Email address: Abnormal abcd = pass
+1_5.keyin Email address: Abnormal abcd = pass
+2.keyin error password = pass
+3.keyin less than 8 characters password = pass
+4.keyin 1~8 password = pass
+5.keyin over 20 characters = pass
+6.The e-mail format incorrect = pass
+7.Enter resend email page = pass
+8.Enter resend email page - Null = pass
+9.Enter resend email page - a@a = pass
+9_1.Enter resend email page - a@a.c = pass
+9_2.Enter resend email page - a@@a.c2c = pass
+9_3.Enter resend email page - a@a@a.cc = pass
+9_4.Enter resend email page - aa.cc = pass
+9_5.Enter resend email page - abcd = pass
+10.Enter resend email page - right account = pass
 ]]></system-out>
 
-      <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 1464
+      <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 7353
 Only local connections are allowed.
-三月 19, 2018 1:24:22 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+三月 19, 2018 4:31:46 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
 資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-三月 19, 2018 1:24:23 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+三月 19, 2018 4:31:48 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
 資訊: Detected dialect: OSS
 ]]></system-err>
 

@@ -2,6 +2,7 @@ package junitpack;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
@@ -15,13 +16,29 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+//Create_account Test case:
+//1.Create_account-Email address:blank
+//2.Create_account-Enter incorrect email
+//3.Create_account-Enter Password:blank
+//4.Create_account-Password: keyin over 20 characters
+//5.Create_account-Password: keyin 1~8 number
+//6.Create_account-Password: keyin 1~7 characters
+//9.Create_account-Uncheck "Yes, I agree to the terms of use"
+//10.Create_account-Enter nickname : blank
+//11.Create_account-Enter nickname over 128 characters
+//17.Create_account-Enter error cfm password
+//22.Create_account-Enter Error Captcha verification email
+
 public class junit_oauth_create_account {
 
-	@Test
-	public void Create_account() throws Exception {
+	static ArrayList Resultlist = new ArrayList(); 
+	static ArrayList<ArrayList> ALLResultlist = new ArrayList<ArrayList>(); 
+	
+	//@Test
+	public ArrayList junit_oauth_create_account() throws Exception {
 				//System.setProperty("webdriver.gecko.driver", "C:/Users/alexyang/Desktop/driver/geckodriver.exe");
 				//System.setProperty("webdriver.ie.driver", "C:/Users/alexyang/Desktop/driver/IEDriverServer.exe");
-				System.setProperty("webdriver.chrome.driver", "C:/Users/alexyang/Desktop/driver/ChromeDriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver.exe");
 				
 //  			IE
 				//WebDriver driverChrome= new InternetExplorerDriver();
@@ -74,11 +91,19 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element1 = driverChrome.findElement(By.xpath("//*[@id='email-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Email_address_blank.equals(element1) == true){
-			    		System.out.println("1.Create_account-Email address:blank = pass");
-			    }else{
-			    		System.out.println("1.Create_account-Email address:blank = fail");	
-			    	 }
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("1.Create_account-Email address:blank");
+				
+				if (Email_address_blank.equals(element1) == true) {
+					Resultlist.add(true);
+					System.out.println("1.Create_account-Email address:blank = pass");
+				} else {
+					System.out.println("1.Create_account-Email address:blank = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 			    
 			    
 		//Create_account-Enter incorrect email	    
@@ -109,11 +134,20 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element2 = driverChrome.findElement(By.xpath("//*[@id='email-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Enter_incorrect_email.equals(element2) == true){
-			    		System.out.println("2.Create_account-Enter incorrect email = pass");
-			    }else{
-			    		System.out.println("2.Create_account-Enter incorrect email = fail");	
-			    	 }
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("2.Create_account-Enter incorrect email");
+				
+				if (Enter_incorrect_email.equals(element2) == true) {
+					Resultlist.add(true);
+					System.out.println("2.Create_account-Enter incorrect email = pass");
+				} else {
+					System.out.println("2.Create_account-Enter incorrect email = fail");
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
+			    
 			     
 		//Create_account-Enter Password : blank
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -140,11 +174,20 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element3 = driverChrome.findElement(By.xpath("//*[@id='password1-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Enter_Password_blank.equals(element3) == true){
-			    		System.out.println("3.Create_account-Enter Password:blank = pass");
-			    }else{
-			    		System.out.println("3.Create_account-Enter Password:blank = fail");	
-			    	 } 
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("3.Create_account-Enter Password:blank");
+				
+				if (Enter_Password_blank.equals(element3) == true) {
+					Resultlist.add(true);
+					System.out.println("3.Create_account-Enter Password:blank = pass");
+				} else {
+					System.out.println("3.Create_account-Enter Password:blank = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
+			    
 			    
 		//Create_account-Password: keyin over 20 characters	    
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -174,12 +217,19 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element4 = driverChrome.findElement(By.xpath("//*[@id='password1-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(keyin_over_20_characters.equals(element4) == true){
-			    		System.out.println("4.Create_account-Password: keyin over 20 characters = pass");
-			    }else{
-			    		System.out.println("4.Create_account-Password: keyin over 20 characters = fail");	
-			    	 }
 			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("4.Create_account-Password: keyin over 20 characters");
+				
+				if (keyin_over_20_characters.equals(element4) == true) {
+					Resultlist.add(true);
+					System.out.println("4.Create_account-Password: keyin over 20 characters = pass");
+				} else {
+					System.out.println("4.Create_account-Password: keyin over 20 characters = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 			    
 		//Create_account-Password: keyin 1~8 number   
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -208,12 +258,20 @@ public class junit_oauth_create_account {
 			    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='password1-help']/ul/li")));
 			    // }catch (Exception e){;}
 			    String element5 = driverChrome.findElement(By.xpath("//*[@id='password1-help']/ul/li")).getText();
-			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(keyin_1to8_number.equals(element5) == true){
-			    		System.out.println("5.Create_account-Password: keyin 1~8 number = pass");
-			    }else{
-			    		System.out.println("5.Create_account-Password: keyin 1~8 number = fail");	
-			    	 }	    
+			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);   
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("5.Create_account-Password: keyin 1~8 number");
+				
+				if (keyin_1to8_number.equals(element5) == true) {
+					Resultlist.add(true);
+					System.out.println("5.Create_account-Password: keyin 1~8 number = pass");
+				} else {
+					System.out.println("5.Create_account-Password: keyin 1~8 number = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 			    
 		//Create_account-Password: keyin 1~7 characters   
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -243,12 +301,21 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element6 = driverChrome.findElement(By.xpath("//*[@id='password1-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(keyin_1to7_characters.equals(element6) == true){
-			    		System.out.println("6.Create_account-Password: keyin 1~7 characters = pass");
-			    }else{
-			    		System.out.println("6.Create_account-Password: keyin 1~7 characters = fail");	
-			    	 }
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("6.Create_account-Password: keyin 1~7 characters");
+				
+				if (keyin_1to7_characters.equals(element6) == true) {
+					Resultlist.add(true);
+					System.out.println("6.Create_account-Password: keyin 1~7 characters = pass");
+				} else {
+					System.out.println("6.Create_account-Password: keyin 1~7 characters = fail");
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 
+		//VSaaS 2.0 case  			    
 //		//Create_account-Enter Captcha verification code : blank
 //			    driverChrome.findElement(By.xpath("//span[@id='logo']")).click();
 //			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -295,11 +362,19 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element9 = driverChrome.findElement(By.xpath("//*[@id='agree-cb-help']")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Uncheck_Yes_I_agree_to_the_terms_of_use.equals(element9) == true){
-			    		System.out.println("9.Create_account-Uncheck \"Yes, I agree to the terms of use\" = pass");
-			    }else{
-			    		System.out.println("9.Create_account-Uncheck \"Yes, I agree to the terms of use\" = fail");	
-			    	 }
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("9.Create_account-Uncheck \"Yes, I agree to the terms of use\"");
+				
+				if (Uncheck_Yes_I_agree_to_the_terms_of_use.equals(element9) == true) {
+					Resultlist.add(true);
+					System.out.println("9.Create_account-Uncheck \"Yes, I agree to the terms of use\" = pass");
+				} else {
+					System.out.println("9.Create_account-Uncheck \"Yes, I agree to the terms of use\" = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 			    
 		//Create_account-Enter nickname : blank
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -321,12 +396,20 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element10 = driverChrome.findElement(By.xpath("//*[@id='username-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Enter_nickname_blank.equals(element10) == true){
-			    		System.out.println("10.Create_account-Enter nickname : blank = pass");
-			    }else{
-			    		System.out.println("10.Create_account-Enter nickname : blank = fail");	
-			    	 }	
 			   
+			    Resultlist = new ArrayList();
+				Resultlist.add("10.Create_account-Enter nickname : blank");
+				
+				if (Enter_nickname_blank.equals(element10) == true) {
+					Resultlist.add(true);
+					System.out.println("10.Create_account-Enter nickname : blank = pass");
+				} else {
+					System.out.println("10.Create_account-Enter nickname : blank = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
+			    
 //			  //Create_account-Enter nickname over 128 characters
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("id_email")).clear();
@@ -347,12 +430,19 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element11 = driverChrome.findElement(By.xpath("//*[@id='username-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Enter_nickname_over_128_characters.equals(element11) == true){
-			    		System.out.println("11.Create_account-Enter nickname over 128 characters = pass");
-			    }else{
-			    		System.out.println("11.Create_account-Enter nickname over 128 characters = fail");	
-			    	 }
 			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("11.Create_account-Enter nickname over 128 characters");
+				
+				if (Enter_nickname_over_128_characters.equals(element11) == true) {
+					Resultlist.add(true);
+					System.out.println("11.Create_account-Enter nickname over 128 characters = pass");
+				} else {
+					System.out.println("11.Create_account-Enter nickname over 128 characters = fail");
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 			    
 			  //Create_account-Enter error cfm password  
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -384,6 +474,19 @@ public class junit_oauth_create_account {
 			    		System.out.println("17.Create_account-Enter error cfm password = fail");	
 			    	 }
 			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("17.Create_account-Enter error cfm password");
+				
+				if (Enter_error_cfm_password.equals(element17) == true) {
+					Resultlist.add(true);
+					System.out.println("17.Create_account-Enter error cfm password = pass");
+				} else {
+					System.out.println("17.Create_account-Enter error cfm password = fail");
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
+			    
 //			  //Create_account-Enter Error Captcha verification email  
 //			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("id_email")).clear();
@@ -401,6 +504,9 @@ public class junit_oauth_create_account {
 				driverChrome.findElement(By.id("id_username")).clear();
 				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("id_username")).sendKeys("alex_test");
+				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+				driverChrome.findElement(By.id("agree-cb")).click();
+				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("agree-cb")).click();
 				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("submit")).click();
@@ -411,15 +517,24 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element22 = driverChrome.findElement(By.xpath("//*[@id='signup-form']/div[1]/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Enter_Error_Captcha_verification_email.equals(element22) == true){
-			    		System.out.println("22.Create_account-Enter Error Captcha verification email = pass");
-			    }else{
-			    		System.out.println("22.Create_account-Enter Error Captcha verification email = fail");	
-			    	 }	    
+			    
+			    Resultlist = new ArrayList();
+				Resultlist.add("22.Create_account-Enter Error Captcha verification email");
+				
+				if (Enter_Error_Captcha_verification_email.equals(element22) == true) {
+					Resultlist.add(true);
+					System.out.println("22.Create_account-Enter Error Captcha verification email = pass");
+				} else {
+					System.out.println("22.Create_account-Enter Error Captcha verification email = fail");	
+					Resultlist.add(false);
+				}
+				//ALLarraylist
+				ALLResultlist.add(Resultlist);
 			    
 		//°j°é			}
-			    driverChrome.close();  
-				    driverChrome.quit();
-				  
+				driverChrome.close();  
+				driverChrome.quit();
+				return ALLResultlist; 
 			}
-		}
+}
+		

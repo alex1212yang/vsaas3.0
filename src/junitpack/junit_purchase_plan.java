@@ -48,7 +48,7 @@ public class junit_purchase_plan {
 				//WebDriver driverChrome = new ChromeDriver();
 				WebDriverWait wait = new WebDriverWait(driverChrome, 10);
 				driverChrome.manage().window().maximize();
-				driverChrome.navigate().to("https://vsaas.kalay.us/");
+				driverChrome.navigate().to("https://wr-qa-vsaas.kalay.us/");
 		//°j°é		for(int i = 0 ; i < 10; i++){
 				Thread.sleep(5000);
 				driverChrome.findElement(By.cssSelector("span[data-reactid='.0.1.0.2.1']")).click();
@@ -110,7 +110,7 @@ public class junit_purchase_plan {
 				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			    driverChrome.findElement(By.id("login_email")).clear();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    driverChrome.findElement(By.id("login_email")).sendKeys("demo-buyer-4@tutk.com");
+			    driverChrome.findElement(By.id("login_email")).sendKeys("wr-qa-buyer@tutk.com");
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			    driverChrome.findElement(By.id("login_password")).clear();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

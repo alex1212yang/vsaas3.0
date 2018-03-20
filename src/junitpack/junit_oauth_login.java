@@ -28,7 +28,7 @@ import junit.extensions.RepeatedTest;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-//Test case
+//oauth_login Test case:
 //0.keyin Email address: Null
 //0_1.keyin Password: Null
 //1.keyin Email address: Abnormal a@a
@@ -36,7 +36,6 @@ import junit.framework.TestSuite;
 //1_2.keyin Email address: Abnormal a@@a.c2c
 //1_3.keyin Email address: Abnormal a@a@a.cc
 //1_4.keyin Email address: Abnormal aa.cc
-//1_5.keyin Email address: Abnormal abcd
 //1_5.keyin Email address: Abnormal abcd
 //2.keyin error password
 //3.keyin less than 8 characters password
@@ -257,7 +256,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String Email_Abnormal_2 = "Email or Password is not correct";
-		// String Email_Abnormal_1 = "輸入有效的電子郵件地址。";
+		// String Email_Abnormal_2 = "輸入有效的電子郵件地址。";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(
@@ -292,7 +291,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String Email_Abnormal_3 = "Email or Password is not correct";
-		// String Email_Abnormal_1 = "輸入有效的電子郵件地址。";
+		// String Email_Abnormal_3 = "輸入有效的電子郵件地址。";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(
@@ -327,7 +326,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String Email_Abnormal_4 = "Email or Password is not correct";
-		// String Email_Abnormal_1 = "輸入有效的電子郵件地址。";
+		// String Email_Abnormal_4 = "輸入有效的電子郵件地址。";
 		// try{
 		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='body-container']/div/div[2]/form/div[5]/ul/li")));
@@ -361,18 +360,13 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String Email_Abnormal_5 = "Email or Password is not correct";
-		// String Email_Abnormal_1 = "輸入有效的電子郵件地址。";
+		// String Email_Abnormal_5 = "輸入有效的電子郵件地址。";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='body-container']/div/div[2]/form/div[5]/ul/li")));
 		// }catch (Exception e){;}
 		String element1_5 = driverChrome.findElement(By.xpath("//*[@id='body-container']/div/div[2]/form/div[5]/ul/li")).getText();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		if (Email_Abnormal_5.equals(element1_5) == true) {
-			System.out.println("1_5.keyin Email address: Abnormal abcd = pass");
-		} else {
-			System.out.println("1_5.keyin Email address: Abnormal abcd = fail");
-		}
 		
 		//arraylist
 				Resultlist = new ArrayList();
@@ -436,7 +430,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String less_than_8_characters = "Email or Password is not correct";
-		// String error_password = "帳號或密碼錯誤";
+		// String less_than_8_characters = "帳號或密碼錯誤";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(
@@ -471,7 +465,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String keyin_1to8_password = "Email or Password is not correct";
-		// String error_password = "帳號或密碼錯誤";
+		// String keyin_1to8_password = "帳號或密碼錯誤";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(
@@ -506,7 +500,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String keyin_over_20_characters = "Email or Password is not correct";
-		// String error_password = "帳號或密碼錯誤";
+		// String keyin_over_20_characters = "帳號或密碼錯誤";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='body-container']/div/div[2]/form/div[5]/ul/li")));
@@ -540,7 +534,7 @@ public class junit_oauth_login{
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(1000);
 		String The_email_format_incorrect = "Email or Password is not correct";
-		// String error_password = "帳號或密碼錯誤";
+		// String The_email_format_incorrect = "帳號或密碼錯誤";
 		// try{
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-reactid='.0.1.0.4']")));
 		wait.until(
@@ -627,6 +621,7 @@ public class junit_oauth_login{
 		// String Enter_resend_email_page_Null = "Please enter your email
 		// address to reset password";
 		String Enter_resend_email_page_0 = "The email is not valid";
+		//String Enter_resend_email_page_0 = "電子郵件錯誤";
 		// try{
 		// }catch (Exception e){;}
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='email-help']/ul/li")));
@@ -656,6 +651,7 @@ public class junit_oauth_login{
 		// String Enter_resend_email_page_Null = "Please enter your email
 		// address to reset password";
 		String Enter_resend_email_page_1 = "The email is not valid";
+		//String Enter_resend_email_page_1 = "電子郵件錯誤";
 		// try{
 		// }catch (Exception e){;}
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='email-help']/ul/li")));
@@ -685,6 +681,7 @@ public class junit_oauth_login{
 		// String Enter_resend_email_page_Null = "Please enter your email
 		// address to reset password";
 		String Enter_resend_email_page_3 = "The email is not valid";
+		//String Enter_resend_email_page_3 = "電子郵件錯誤";
 		// try{
 		// }catch (Exception e){;}
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='email-help']/ul/li")));
@@ -714,6 +711,7 @@ public class junit_oauth_login{
 		// String Enter_resend_email_page_Null = "Please enter your email
 		// address to reset password";
 		String Enter_resend_email_page_4 = "The email is not valid";
+		//String Enter_resend_email_page_4 = "電子郵件錯誤";
 		// try{
 		// }catch (Exception e){;}
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='email-help']/ul/li")));
@@ -743,6 +741,7 @@ public class junit_oauth_login{
 		// String Enter_resend_email_page_Null = "Please enter your email
 		// address to reset password";
 		String Enter_resend_email_page_5 = "The email is not valid";
+		//String Enter_resend_email_page_5 = "電子郵件錯誤";
 		// try{
 		// }catch (Exception e){;}
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='email-help']/ul/li")));
@@ -772,12 +771,12 @@ public class junit_oauth_login{
 		// String Enter_resend_email_page_Null = "Please enter your email
 		// address to reset password";
 		String Enter_resend_email_page_6 = "The email is not valid";
+		//String Enter_resend_email_page_6 = "電子郵件錯誤";
 		// try{
 		// }catch (Exception e){;}
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='email-help']/ul/li")));
 		String element9_6 = driverChrome.findElement(By.xpath("//*[@id='email-help']/ul/li")).getText();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		if (Enter_resend_email_page_6.equals(element9_6) == true) {
 		
 		//arraylist
 		Resultlist = new ArrayList();
@@ -802,6 +801,7 @@ public class junit_oauth_login{
 				// String Enter_resend_email_page_Null = "Please enter your email
 				// address to reset password";
 				String Enter_resend_email_page_7 = "We've send you an email to reset your password.";
+				//String Enter_resend_email_page_7 = "我們已寄送重設密碼確認信至您的信箱.";
 				// try{
 				// }catch (Exception e){;}
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(@class,'text-center lead kfs-0 padding-top-2 padding-bottom-2')]")));
@@ -830,7 +830,6 @@ public class junit_oauth_login{
 		
 		
 		// 迴圈 }
-	}
 		driverChrome.close();  
 	    driverChrome.quit();
 	    return ALLResultlist;

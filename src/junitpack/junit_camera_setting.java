@@ -24,7 +24,7 @@ public class junit_camera_setting {
 	public void Camera_Setting() throws Exception {
 		//System.setProperty("webdriver.gecko.driver", "C:/Users/alexyang/Desktop/geckodriver.exe");
 		//System.setProperty("webdriver.ie.driver", "C:/Users/alexyang/Desktop/IEDriverServer.exe");
-		System.setProperty("webdriver.chrome.driver", "C:/Users/alexyang/Desktop/ChromeDriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver.exe");
 		
 //		IE
 		//WebDriver driverChrome= new InternetExplorerDriver();
@@ -70,7 +70,7 @@ public class junit_camera_setting {
 		driverChrome.findElement(By.xpath("//*[@id='root']/div/section/form/div[3]/span")).click();
 		Thread.sleep(1000);
 		*/
-		driverChrome.navigate().to("https://k2-alpha.kalay.us/");
+		driverChrome.navigate().to("https://wr-qa-vsaas.kalay.us/");
 
 		// °j°é for(int i = 0 ; i < 10; i++){
 		Thread.sleep(5000);
@@ -82,7 +82,7 @@ public class junit_camera_setting {
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driverChrome.findElement(By.id("id_password")).clear();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driverChrome.findElement(By.id("id_password")).sendKeys("Aa13243537");
+		driverChrome.findElement(By.id("id_password")).sendKeys("Alex2457");
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driverChrome.findElement(By.xpath("//*[@id='submit']")).click();
 		Thread.sleep(10000);
@@ -92,7 +92,7 @@ public class junit_camera_setting {
 //		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 //		driverChrome.findElement(By.xpath("//*[@id='addDeviceModal']/div/div/div[2]/div/div[1]/input")).clear();
 //		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-//		driverChrome.findElement(By.xpath("//*[@id='addDeviceModal']/div/div/div[2]/div/div[1]/input")).sendKeys("H8DDXGD2T936NK88111A");
+//		driverChrome.findElement(By.xpath("//*[@id='addDeviceModal']/div/div/div[2]/div/div[1]/input")).sendKeys("EBUABT7CZV3M2H6GU1Z1");
 //		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 //		driverChrome.findElement(By.xpath("//*[@id='addDeviceModal']/div/div/div[2]/div/div[2]/input")).clear();
 //		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -107,8 +107,8 @@ public class junit_camera_setting {
 //		driverChrome.findElement(By.xpath("//*[@id='pickColorModal']/div/div/div[3]/div/div[2]/span")).click();
 //		Thread.sleep(3000);
 //		String Add_Camera = "auto_test";
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[data-reactid='.0.1.1.0:$H8DDXGD2T936NK88111A.0.1']")));
-//		String element1 = driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$H8DDXGD2T936NK88111A.0.1']")).getText();
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[data-reactid='.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.1']")));
+//		String element1 = driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.1']")).getText();
 //	    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 //	    if(Add_Camera.equals(element1) == true){
 //	    		System.out.println("1.Add_Camera = pass");
@@ -121,7 +121,7 @@ public class junit_camera_setting {
 		Thread.sleep(5000);
 		driverChrome.findElement(By.xpath("//span[@id='logo']")).click();
 		Thread.sleep(1000);
-		driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$H8DDXGD2T936NK88111A.0.0']")).click();
+		driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.0']")).click();
 	    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	    driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0'")).click();
 		//driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -136,18 +136,18 @@ public class junit_camera_setting {
 		Thread.sleep(1000);
 		driverChrome.findElement(By.cssSelector("span[data-reactid='.0.1.0.0.0']")).click();
 		Thread.sleep(1000);
-		driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$H8DDXGD2T936NK88111A.0.0']")).click();
+		driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.0']")).click();
 		Thread.sleep(1000);
 	    System.out.println("1_1.Open molamola plugin = Pass");
 	    */
 	    
 	    //1_2.Liveview icon page success
 	    //driverChrome.findElement(By.xpath("//span[@id='logo']")).click();
-	    Thread.sleep(15000);
-	    driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$H8DDXGD2T936NK88111A.0.0']")).click();
+	    Thread.sleep(10000);
+	    driverChrome.findElement(By.cssSelector("div[data-reactid='.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.0']")).click();
 	    Thread.sleep(5000);
 	    driverChrome.findElement(By.xpath("//div[@id='root']/div/div[2]/div[1]/div/span[4]")).click();
-	    Thread.sleep(5000);
+	    Thread.sleep(10000);
 	    driverChrome.findElement(By.xpath("//div[@id='bind-camera-dialog']/span")).click();
 	    Thread.sleep(5000);
 	    driverChrome.findElement(By.xpath("//div[@id='root']/div/div[2]/div[1]/div/span[3]")).click();

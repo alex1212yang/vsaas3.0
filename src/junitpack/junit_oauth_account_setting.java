@@ -21,7 +21,7 @@ public class junit_oauth_account_setting {
 	public void Account_Setting() throws Exception {
 		//System.setProperty("webdriver.gecko.driver", "C:/Users/alexyang/Desktop/driver/geckodriver.exe");
 		//System.setProperty("webdriver.ie.driver", "C:/Users/alexyang/Desktop/driver/IEDriverServer.exe");
-		System.setProperty("webdriver.chrome.driver", "C:/Users/alexyang/Desktop/driver/ChromeDriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver.exe");
 		
 //		IE
 		//WebDriver driverChrome= new InternetExplorerDriver();
@@ -72,7 +72,7 @@ public class junit_oauth_account_setting {
 				
 				//driverChrome.navigate().to("https://vsaas.kalay.us/");
 				//driverChrome.navigate().to("https://wr-qa-vsaas.kalay.us/");
-				driverChrome.navigate().to("https://stg-vsaas.kalayservice.com/");
+				driverChrome.navigate().to("https://wr-qa-vsaas.kalay.us/");
 
 				// °j°é for(int i = 0 ; i < 10; i++){
 				Thread.sleep(1000);
