@@ -468,11 +468,6 @@ public class junit_oauth_create_account {
 			    // }catch (Exception e){;}
 			    String element17 = driverChrome.findElement(By.xpath("//*[@id='password2-help']/ul/li")).getText();
 			    driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			    if(Enter_error_cfm_password.equals(element17) == true){
-			    		System.out.println("17.Create_account-Enter error cfm password = pass");
-			    }else{
-			    		System.out.println("17.Create_account-Enter error cfm password = fail");	
-			    	 }
 			    
 			    Resultlist = new ArrayList();
 				Resultlist.add("17.Create_account-Enter error cfm password");
@@ -504,9 +499,7 @@ public class junit_oauth_create_account {
 				driverChrome.findElement(By.id("id_username")).clear();
 				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("id_username")).sendKeys("alex_test");
-				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				driverChrome.findElement(By.id("agree-cb")).click();
-				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+				Thread.sleep(3000);
 				driverChrome.findElement(By.id("agree-cb")).click();
 				driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driverChrome.findElement(By.id("submit")).click();
