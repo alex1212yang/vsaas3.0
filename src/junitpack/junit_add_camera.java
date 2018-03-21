@@ -658,12 +658,10 @@ public class junit_add_camera {
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driverChrome.findElement(By.xpath("//*[@id='root']/div/div[3]/div[2]/div/div/div[3]/div/div/span")).click();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driverChrome.findElement(By.xpath("//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[3]/label/input"))
-				.click();
+		driverChrome.findElement(By.xpath("//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[3]/label/input")).click();
 		driverChrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driverChrome.findElement(By.xpath("//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[4]/div[2]/div/span"))
-				.click();
-		Thread.sleep(5000);
+		driverChrome.findElement(By.xpath("//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[4]/div[2]/div/span")).click();
+		Thread.sleep(10000);
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[data-reactid='.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.1']")));
 		try {
 			String element22 = driverChrome
@@ -687,7 +685,7 @@ public class junit_add_camera {
 		
 		//ALLarraylist
 		ALLResultlist.add(Resultlist);
-		
+
 		driverChrome.close();
 		driverChrome.quit();
 		return ALLResultlist;
