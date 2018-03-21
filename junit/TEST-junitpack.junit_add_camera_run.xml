@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="TPE-Alex-Yang" name="junitpack.junit_add_camera_run" skipped="0" tests="1" time="0.147" timestamp="2018-03-21T02:45:11">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.RUN_DISPLAY_URL" value="http://localhost:8080/job/testtimes2/45/display/redirect" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="f0626e2136f2636c" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="env.BASE" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\resources.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\rt.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\jsse.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\jce.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\charsets.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\jfr.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\classes" />
+    <property name="env.COMPUTERNAME" value="TPE-ALEX-YANG" />
+    <property name="env.JOB_DISPLAY_URL" value="http://localhost:8080/job/testtimes2/display/redirect" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#45" />
+    <property name="user.name" value="TPE-ALEX-YANG$" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="kalay_vsaas_3.0" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="env.asl.log" value="Destination=file" />
+    <property name="env.TEMP" value="C:\WINDOWS\TEMP" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\endorsed" />
+    <property name="env.PROCESSOR_ARCHITEW6432" value="AMD64" />
+    <property name="env._JAVACMD" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="env.JOB_BASE_NAME" value="testtimes2" />
+    <property name="sun.jnu.encoding" value="MS950" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="TW" />
+    <property name="env.BUILD_NUMBER" value="45" />
+    <property name="java.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files (x86)\Common Files" />
+    <property name="ant.file" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.HUDSON_COOKIE" value="646729a3-af91-474a-9103-7552da45e0d0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="env.USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/testtimes2/45/display/redirect?page=changes" />
+    <property name="env.JOB_NAME" value="testtimes2" />
+    <property name="env.JAVA_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\WINDOWS\TEMP" />
+    <property name="env.WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.SERVICE_ID" value="Jenkins" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/" />
+    <property name="env.BUILD_TAG" value="jenkins-testtimes2-45" />
+    <property name="target" value="1.8" />
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="env.JENKINS_HOME" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.JOB_URL" value="http://localhost:8080/job/testtimes2/" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK/bin;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant/bin;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.HUDSON_HOME" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="f0626e2136f2636c" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junitpack.junit_add_camera_run skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Program Files (x86)\Jenkins\workspace\testtimes2\junit\TEST-junitpack.junit_add_camera_run.xml crashfile=C:\Program Files (x86)\Jenkins\workspace\testtimes2\junitvmwatcher6081830881438053266.properties propsfile=C:\Program Files (x86)\Jenkins\workspace\testtimes2\junit2612914569567141008.properties" />
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2\bin;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\cglib-nodep-3.2.4.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\client-combined-3.0.1-nodeps.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\commons-codec-1.10.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\commons-exec-1.3.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\commons-io-2.5.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\commons-lang3-3.4.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\commons-logging-1.2.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\cssparser-0.9.20.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\gson-2.3.1.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\guava-19.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\hamcrest-library-1.3.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\htmlunit-2.23.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\htmlunit-core-js-2.23.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\httpclient-4.5.2.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\httpcore-4.4.4.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\httpmime-4.5.2.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\javax.servlet-api-3.1.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\jetty-io-9.2.13.v20150730.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\jetty-util-9.2.13.v20150730.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\jna-4.1.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\jna-platform-4.1.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\junit-4.12.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\neko-htmlunit-2.23.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\netty-3.5.7.Final.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\phantomjsdriver-1.3.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\sac-1.3.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\selenium-html-runner-3.0.1.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\selenium-java-2.53.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\selenium-java-2.53.0-srcs.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\selenium-server-standalone-3.0.1.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\selenium-server-standalone-3.3.1.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\serializer-2.7.2.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\websocket-api-9.2.15.v20160210.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\websocket-client-9.2.15.v20160210.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\websocket-common-9.2.15.v20160210.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\xalan-2.7.2.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\xercesImpl-2.11.0.jar;C:\Program Files (x86)\Jenkins\workspace\testtimes2\lib\xml-apis-1.4.01.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant\lib\ant-launcher.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant\lib\ant.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant\lib\ant-junit.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant\lib\ant-junit4.jar" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="ant.file.kalay_vsaas_3.0" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2\build.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.WINSW_SERVICE_ID" value="Jenkins" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant" />
+    <property name="env.ProgramFiles" value="C:\Program Files (x86)" />
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/testtimes2/45/" />
+    <property name="env.PROCESSOR_REVISION" value="3a09" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" build junit_oauth_create_account_run junit_oauth_login_run junit_add_camera_run junitreport" />
+    <property name="os.arch" value="x86" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="env.LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local" />
+    <property name="env.BUILD_ID" value="45" />
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2" />
+    <property name="env.GIT_BRANCH" value="origin/master" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK/bin;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant/bin;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\JDK/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;" />
+    <property name="env.GIT_COMMIT" value="fd18b08674958cce20bdfd1b93d73c6e55cf1bb3" />
+    <property name="env.GIT_URL" value="https://github.com/alex1212yang/vsaas3.0.git" />
+    <property name="basedir" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2" />
+    <property name="ant.file.type.kalay_vsaas_3.0" value="file" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Ant\lib\ant.jar" />
+    <property name="env.GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="d23c5c88a2c17d7b05bad30a55b3f50526971063" />
+    <property name="env.USERNAME" value="TPE-ALEX-YANG$" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="MS950" />
+    <property name="env.WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2" />
+    <property name="env.USERDOMAIN" value="TUTK" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Program Files (x86)\Jenkins\workspace\testtimes2" />
+    <property name="ant.project.invoked-targets" value="build,junit_oauth_create_account_run,junit_oauth_login_run,junit_add_camera_run,junitreport" />
+    <property name="env.GIT_PREVIOUS_COMMIT" value="d23c5c88a2c17d7b05bad30a55b3f50526971063" />
+    <property name="env.NODE_LABELS" value="master" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="junitpack.junit_add_camera_run" name="initializationError" time="0.01">
+    <error message="unknown error: Element &lt;span class=&quot;s-icon device-info s-icon-device-info&quot; data-reactid=&quot;.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.0.1&quot;&gt;&lt;/span&gt; is not clickable at point (241, 233). Other element would receive the click: &lt;div class=&quot;modal-backdrop in&quot; data-reactid=&quot;.0.3.0&quot;&gt;&lt;/div&gt;&#xa;  (Session info: chrome=65.0.3325.162)&#xa;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 53 milliseconds&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\WINDOWS\TEMP\scoped_dir17580_19661}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 32831197b20e12194877042656493bfb" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;s-icon device-info s-icon-device-info&quot; data-reactid=&quot;.0.1.1.0:$EBUABT7CZV3M2H6GU1Z1.0.0.1&quot;&gt;&lt;/span&gt; is not clickable at point (241, 233). Other element would receive the click: &lt;div class=&quot;modal-backdrop in&quot; data-reactid=&quot;.0.3.0&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\WINDOWS\TEMP\scoped_dir17580_19661}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32831197b20e12194877042656493bfb
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at junitpack.junit_add_camera.junit_add_camera(junit_add_camera.java:493)
+	at junitpack.junit_add_camera_run.primeNumbers(junit_add_camera_run.java:30)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+</error>
+  </testcase>
+  <system-out><![CDATA[1.Add_Camera = pass
+2.Add Camera-default color green = pass
+4.Add Camera-UID Number: blank = pass
+5.Add Camera-UID Password: blank = pass
+6.Add Camera-Device Name: blank = pass
+7.Add Camera-keyin already "UID Number" = pass
+10.Edit camera-keyin new camera name = pass
+11.Edit camera-keyin new camera name spec = pass
+12.Add Camera-keyin new camera name MAX = pass
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 7021
+Only local connections are allowed.
+三月 21, 2018 10:43:25 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+三月 21, 2018 10:43:26 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Detected dialect: OSS
+]]></system-err>
+</testsuite>
